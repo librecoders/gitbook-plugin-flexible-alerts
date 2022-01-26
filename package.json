@@ -1,6 +1,6 @@
 {
-  "name": "gitbook-plugin-flexible-alerts",
-  "version": "1.0.3",
+  "name": "gitbook-plugin-flexible-alerts-static",
+  "version": "1.0.5",
   "description": "GitBook plugin to convert blockquotes into beautiful and configurable alerts using preconfigured or own styles and alert types.",
   "keywords": [
     "gitbook",
@@ -30,6 +30,9 @@
   },
   "bugs": {
     "url": "https://github.com/zanfab/gitbook-plugin-flexible-alerts/issues"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
